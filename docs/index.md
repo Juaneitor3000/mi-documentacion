@@ -4,6 +4,23 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 
 ## La placa
  
+ <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_5.jpg" alt="Imagen 1" style="max-width: 100%; height: 300px;">
+    <p>Menú principal en PC</p>
+</div>
+
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_4.jpg" alt="Imagen 2" style="max-width: 100%; height: 300px;">
+    <p>"Ajustes" en móvil</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_3.jpg" alt="Imagen 3" style="max-width: 100%; height: 300px;">
+    <p>Pestaña "Información"</p>
+  </div>
+</div>
 
 -	Conectividad directa de 2 tiras led con patrones de iluminación independientes, programables y configurables.
 
@@ -25,12 +42,15 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 
 ## Pines
 ## WLED  
-
+ <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/wled_logo_akemi.png" alt="Imagen 1" style="max-width: 100%; height: 100px;">
+    <p>Menú principal en PC</p>
+</div>
 <p><img src="https://kno.wled.ge/assets/images/ui/headers/macbook-pro-space-gray-on-the-wooden-table.jpg" width="50%"><img src="https://kno.wled.ge/assets/images/ui/headers/walking-with-iphone-x.jpg" width="50%"></p>
 
 WLED es el software que utiliza la placa, la página oficial y la que ofrece la mayor documentación es la siguiente: [https://kno.wled.ge](https://kno.wled.ge).
 
-![Texto alternativo](https://kno.wled.ge/assets/images/ui/headers/wled_logo_akemi.png)
+
 
 
 ### Características
@@ -69,30 +89,32 @@ WLED es el software que utiliza la placa, la página oficial y la que ofrece la 
 -	Mandos infrarrojos (requiere receptor y mando RGB de 24 teclas).
 -	Temporizadores simples/programación (hora desde NTP, soporta zonas horarias/DST).
 
+## Screenshots (capturas de pantalla)
+
+<div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_6.jpg" alt="Imagen 1" style="max-width: 100%; height: auto;">
+    <p>Menú principal en PC</p>
+</div>
+
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_1.jpg" alt="Imagen 2" style="max-width: 100%; height: 300px;">
+    <p>"Ajustes" en móvil</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_2.jpg" alt="Imagen 3" style="max-width: 100%; height: 300px;">
+    <p>Pestaña "Información"</p>
+  </div>
+</div>
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-
-
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="/images/screenshot1.jpg" alt="Imagen 1" style="max-width: 100%; height: auto;">
-    <p>Descripción Imagen 1</p>
-  </div>
-  <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="/images/screenshot2.jpg" alt="Imagen 2" style="max-width: 100%; height: auto;">
-    <p>Descripción Imagen 2</p>
-  </div>
-  <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="/images/screenshot6.jpg" alt="Imagen 3" style="max-width: 100%; height: auto;">
-    <p>Descripción Imagen 3</p>
-  </div>
-</div>
-
 
 ## Project layout
 
