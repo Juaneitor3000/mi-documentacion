@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Documentación</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Documentación</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#wled-shield-v2" class="nav-link">WLED Shield V2</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#la-placa" class="nav-link">La placa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#pines" class="nav-link">Pines</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#wled" class="nav-link">WLED</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#commands" class="nav-link">Commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="wled-shield-v2">WLED Shield V2</h1>
+<p>Placa controladora para LEDs direccionables de 5V, características avanzadas con conectividad wi-fi. </p>
+<h2 id="la-placa">La placa</h2>
+<ul>
+<li>
+<p>Conectividad directa de 2 tiras led con patrones de iluminación independientes, programables y configurables.</p>
+</li>
+<li>
+<p>Software WLED traducido por nosotros al español y pre-configurado para la placa.</p>
+</li>
+<li>
+<p>Alimentación de 5V DC via USB tipo C con un cargador de teléfono o mediante cable SATA de 15 pines (opcional para colocar en una PC gaming).</p>
+</li>
+<li>
+<p>2 salidas o segmentos independientes para tiras de 5 V para controlar LEDs NeoPixel (WS2812B, WS2811, SK6812). Fan coolers RGB direccionales. Etc.</p>
+</li>
+<li>
+<p>2 botones configurables desde la interfaz: </p>
+<ul>
+<li>1 botón sobre la placa: SW1 (GPIO9)</li>
+<li>1 botón opcional externo mediante el conector J5 (GPIO9).  </li>
+</ul>
+</li>
+<li>
+<p>El software incluido incluye 3 mods instalados y preconfigurados para la placa:</p>
+<ul>
+<li>Autosave que guarda el último estado de la configuración.</li>
+<li>Display de 4 líneas para conectar opcionalmente un display en el conector J4.</li>
+<li>Encoder opcional para conectar en J3.  </li>
+</ul>
+</li>
+</ul>
+<h2 id="pines">Pines</h2>
+<h2 id="wled">WLED</h2>
+<p><img src="https://kno.wled.ge/assets/images/ui/headers/macbook-pro-space-gray-on-the-wooden-table.jpg" width="50%"><img src="https://kno.wled.ge/assets/images/ui/headers/walking-with-iphone-x.jpg" width="50%"></p>
+
+<p>WLED es el software que utiliza la placa, la página oficial y la que ofrece la mayor documentación es la siguiente: <a href="https://kno.wled.ge">https://kno.wled.ge</a>.</p>
+<p><img alt="Texto alternativo" src="https://kno.wled.ge/assets/images/ui/headers/wled_logo_akemi.png" /></p>
+<h3 id="caracteristicas">Características</h3>
+<ul>
+<li>Biblioteca WS2812FX integrada con más de 100 efectos especiales.</li>
+<li>Efectos FastLED y 50 paletas de colores.</li>
+<li>Interfaz web moderna con controles de color, efectos y segmentos.</li>
+<li>Segmentos: permite configurar diferentes efectos y colores en distintas partes de los LEDs.</li>
+<li>Página de configuración: ajustes accesibles a través de la red.</li>
+<li>Modo punto de acceso (AP) y estación: incluye AP de respaldo automático.</li>
+<li>Hasta 3 salidas LED por instancia de ESP8266 y 10 salidas LED por instancia de ESP32. (nuestra placa al ser reducida tiene 2 salidas físicas, sin embargo se pueden obtener más ya que presenta accesibilidad a todos los pines).</li>
+<li>Soporte para tiras LED RGBW.</li>
+<li>Hasta 250 presets de usuario para guardar y cargar colores/efectos fácilmente, con soporte para ciclos automáticos.</li>
+<li>Los presets pueden ejecutar llamadas API automáticamente.</li>
+<li>Función de luz nocturna (se atenúa gradualmente).</li>
+<li>Actualización completa de software por OTA (HTTP + ArduinoOTA), con opción de protección por contraseña.</li>
+<li>Límite de brillo automático configurable para un funcionamiento más seguro.</li>
+<li>Configuración basada en sistema de archivos para facilitar el respaldo de presets y configuraciones.</li>
+<li>Integración nativa con Home Assistant: inicia la configuración de integración nativa.</li>
+</ul>
+<h3 id="comunicacion">Comunicación</h3>
+<ul>
+<li>Aplicaciones móviles desarrolladas por la comunidad:</li>
+<li>Aplicación nativa de WLED creada por Moustachauve:</li>
+<li>Para Android [Fuente]</li>
+<li>Para iOS [Fuente]</li>
+<li>APIs de solicitudes JSON y HTTP.</li>
+<li>MQTT.</li>
+<li>Blynk IoT.</li>
+<li>E1.31, Art-Net, DDP y TPM2.net.</li>
+<li>Hyperion.</li>
+<li>Realtime UDP.</li>
+<li>Control por voz con Alexa (incluye ajuste de brillo y color).</li>
+<li>Sincronización con luces Philips Hue.</li>
+<li>Adalight (Ambilight para PC vía serial) y TPM2.</li>
+<li>Sincronización del color entre múltiples dispositivos WLED (notificador UDP).</li>
+<li>Mandos infrarrojos (requiere receptor y mando RGB de 24 teclas).</li>
+<li>Temporizadores simples/programación (hora desde NTP, soporta zonas horarias/DST).</li>
+</ul>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
+</ul>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="/images/iscreenshot1.jpg" alt="Imagen 1" style="max-width: 100%; height: auto;">
+    <p>Descripción Imagen 1</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="/images/iscreenshot2.jpg" alt="Imagen 2" style="max-width: 100%; height: auto;">
+    <p>Descripción Imagen 2</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="/images/iscreenshot6.jpg" alt="Imagen 3" style="max-width: 100%; height: auto;">
+    <p>Descripción Imagen 3</p>
+  </div>
+</div>
+
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2024-12-14 20:40:48.134284+00:00
+-->
