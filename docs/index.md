@@ -76,6 +76,24 @@ WLED es el software que utiliza la placa, la página oficial y la que ofrece la 
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
+
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="/images/screenshot1.jpg" alt="Imagen 1" style="max-width: 100%; height: auto;">
+    <p>Descripción Imagen 1</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="/images/screenshot2.jpg" alt="Imagen 2" style="max-width: 100%; height: auto;">
+    <p>Descripción Imagen 2</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="/images/screenshot6.jpg" alt="Imagen 3" style="max-width: 100%; height: auto;">
+    <p>Descripción Imagen 3</p>
+  </div>
+</div>
+
+
 ## Project layout
 
     mkdocs.yml    # The configuration file.
