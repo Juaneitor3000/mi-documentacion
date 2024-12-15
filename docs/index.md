@@ -5,20 +5,20 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 ## La placa
  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_5.jpg" alt="Imagen 1" style="max-width: 100%; height: 300px;">
-    <p>Menú principal en PC</p>
+    <img src="images/Screenshot_5.png" alt="Imagen 1" style="max-width: 100%; height: 300px;">
+    <p>Vista superior</p>
 </div>
 
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_4.jpg" alt="Imagen 2" style="max-width: 100%; height: 300px;">
-    <p>"Ajustes" en móvil</p>
+    <img src="images/Screenshot_7.png" alt="Imagen 2" style="max-width: 100%; height: 300px;">
+    <p>Vista Trasera</p>
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
     <img src="images/Screenshot_3.jpg" alt="Imagen 3" style="max-width: 100%; height: 300px;">
-    <p>Pestaña "Información"</p>
+    <p>Versión Full</p>
   </div>
 </div>
 
@@ -48,7 +48,7 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 </div>
 <p><img src="https://kno.wled.ge/assets/images/ui/headers/macbook-pro-space-gray-on-the-wooden-table.jpg" width="50%"><img src="https://kno.wled.ge/assets/images/ui/headers/walking-with-iphone-x.jpg" width="50%"></p>
 
-WLED es el software que utiliza la placa, la página oficial y la que ofrece la mayor documentación es la siguiente: [https://kno.wled.ge](https://kno.wled.ge).
+WLED es el software que utiliza la placa, la página oficial de los desarrolladores y la que ofrece la mayor documentación es la siguiente: [https://kno.wled.ge](https://kno.wled.ge).
 
 
 
