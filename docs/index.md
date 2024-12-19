@@ -5,7 +5,7 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 ## La placa
  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_5.png" alt="Imagen 1" style="max-width: none; height: 300px;width: auto;">
+    <img src="images/Screenshot_5.png" alt="Imagen 1" style="max-width: 40%; height: auto;width: auto;">
     <p>Vista superior</p>
 </div>
 
@@ -13,11 +13,11 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 <div style="display: flex; justify-content: space-between; align-items: center;width: auto;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_7.png" alt="Imagen 2" style="max-width: none; height: 300px;width: auto;">
+    <img src="images/Screenshot_7.png" alt="Imagen 2" style="max-width: 70%; height: auto;width: auto;">
     <p>Vista Trasera</p>
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_3.jpg" alt="Imagen 3" style="max-width: none; height: 300px;width: auto;">
+    <img src="images/Screenshot_3.jpg" alt="Imagen 3" style="max-width: 70%; height: auto;width: auto;">
     <p>Versión Full</p>
   </div>
 </div>
@@ -95,10 +95,10 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_20241215-045846.jpg" alt="Imagen 2" style="max-width: none; height: 600px;width: auto;"> 
+    <img src="images/Screenshot_20241215-045846.jpg" alt="Imagen 2" style="max-width: 70%; height: auto;width: auto;"> 
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_20241215-045853.jpg" alt="Imagen 3" style="max-width: none; height: 600px;width: auto;">
+    <img src="images/Screenshot_20241215-045853.jpg" alt="Imagen 3" style="max-width: 70%; height: auto;width: auto;">
   </div>
 </div>
 
@@ -109,20 +109,20 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241215_060320_693.jpg" alt="Imagen 2" style="max-width: none; height: 400px;width: auto;"> 
+    <img src="images/IMG_20241215_060320_693.jpg" alt="Imagen 2" style="max-width: 70%; height: auto;width: auto;"> 
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241210_113155_811.jpg" alt="Imagen 3" style="max-width: none; height: 400px;width: auto;">
+    <img src="images/IMG_20241210_113155_811.jpg" alt="Imagen 3" style="max-width: 70%; height: auto;width: auto;">
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241215_121028_459.jpg" alt="Imagen 2" style="max-width: none; height: 400px;width: auto;">
+    <img src="images/IMG_20241215_121028_459.jpg" alt="Imagen 2" style="max-width: 70%; height: auto;width: auto;">
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241210_192843_833.jpg" alt="Imagen 3" style="max-width: none; height: 400px;width: auto;">
+    <img src="images/IMG_20241210_192843_833.jpg" alt="Imagen 3" style="max-width: 70%; height: auto;width: auto;">
   </div>
 </div>
 
@@ -130,7 +130,7 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 ## Screenshots (capturas de pantalla)
 
 <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_6.jpg" alt="Imagen 1" style="max-width: none; height: auto;width: auto;">
+    <img src="images/Screenshot_6.jpg" alt="Imagen 1" style="max-width: 80%; height: auto;width: auto;">
     <p>Menú principal en PC</p>
 </div>
 
@@ -138,11 +138,11 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_1.jpg" alt="Imagen 2" style="max-width: none; height: 300px;width: auto;">
+    <img src="images/Screenshot_1.jpg" alt="Imagen 2" style="max-width: 70%; height: auto;width: auto;">
     <p>"Ajustes" en móvil</p>
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_2.jpg" alt="Imagen 3" style="max-width: none; height: 300px;width: auto;">
+    <img src="images/Screenshot_2.jpg" alt="Imagen 3" style="max-width: 70%; height: auto;width: auto;">
     <p>Pestaña "Información"</p>
   </div>
 </div>
