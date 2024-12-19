@@ -59,23 +59,19 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#pines" class="nav-link">Pines</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
             <li class="nav-item" data-bs-level="2"><a href="#wled" class="nav-link">WLED</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#primera-conexion" class="nav-link">Primera conexión</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#galeria" class="nav-link">Galería</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-bs-level="2"><a href="#screenshots-capturas-de-pantalla" class="nav-link">Screenshots (capturas de pantalla)</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#commands" class="nav-link">Commands</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -130,12 +126,11 @@
 <p>El software incluido incluye 3 mods instalados y preconfigurados para la placa:</p>
 <ul>
 <li>Autosave que guarda el último estado de la configuración.</li>
-<li>Display de 4 líneas para conectar opcionalmente un display en el conector J4.</li>
-<li>Encoder opcional para conectar en J3.  </li>
+<li>Display de 4 líneas para conectar opcionalmente un display en el conector J4. El display debe contar con protocolo I2C.</li>
+<li>Encoder incremental opcional para conectar en J3.  </li>
 </ul>
 </li>
 </ul>
-<h2 id="pines">Pines</h2>
 <h2 id="wled">WLED</h2>
 <div style="flex: 1; text-align: center; margin: 0 10px;">
     <img src="images/wled_logo_akemi.png" alt="Imagen 1" style="max-width: 100%; height: 100px;">
@@ -181,6 +176,41 @@
 <li>Mandos infrarrojos (requiere receptor y mando RGB de 24 teclas).</li>
 <li>Temporizadores simples/programación (hora desde NTP, soporta zonas horarias/DST).</li>
 </ul>
+<h2 id="primera-conexion">Primera conexión</h2>
+<p>Alimentar la placa con un cable para teléfono USB tipo C y un cargador de teléfono. El led rojo se ha de iluminar.</p>
+<p>Desde un teléfono celular conectarse a la red WIFI llamada WLED-AP.  Desde allí debe aparecer la página de configuración, en caso de conectarse desde un PC, colocar en el navegador la IP del punto de acceso: 4.3.2.1</p>
+<p>Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y password de la red local. Luego de realizado el controlador se reinicia y se conecta a la red local si la señal es suficientemente fuerte, si no puede conectarse entrara de nuevo en modo AP (punto de acceso).</p>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_20241215-045846.jpg" alt="Imagen 2" style="max-width: 100%; height: 400px;"> 
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_20241215-045853.jpg" alt="Imagen 3" style="max-width: 100%; height: 400px;">
+  </div>
+</div>
+
+<h2 id="galeria">Galería</h2>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241215_060320_693.jpg" alt="Imagen 2" style="max-width: 100%; height: 400px;"> 
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241210_113155_811.jpg" alt="Imagen 3" style="max-width: 100%; height: 400px;">
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241215_121028_459.jpg" alt="Imagen 2" style="max-width: 100%; height: 400px;">
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241210_192843_833.jpg" alt="Imagen 3" style="max-width: 100%; height: 400px;">
+  </div>
+</div>
+
 <h2 id="screenshots-capturas-de-pantalla">Screenshots (capturas de pantalla)</h2>
 <div style="flex: 1; text-align: center; margin: 0 10px;">
     <img src="images/Screenshot_6.jpg" alt="Imagen 1" style="max-width: 100%; height: auto;">
@@ -197,21 +227,7 @@
     <img src="images/Screenshot_2.jpg" alt="Imagen 3" style="max-width: 100%; height: 300px;">
     <p>Pestaña "Información"</p>
   </div>
-</div>
-
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+</div></div>
             </div>
         </div>
 
@@ -293,5 +309,5 @@ docs/
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-12-15 11:20:35.010778+00:00
+Build Date UTC : 2024-12-19 13:49:35.173507+00:00
 -->
