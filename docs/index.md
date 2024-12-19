@@ -35,12 +35,10 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
     *	1 botón opcional externo mediante el conector J5 (GPIO9).  
 
 -	El software incluido incluye 3 mods instalados y preconfigurados para la placa:
-
     *	Autosave que guarda el último estado de la configuración.
-    *	Display de 4 líneas para conectar opcionalmente un display en el conector J4.
-    *	Encoder opcional para conectar en J3.  
+    *	Display de 4 líneas para conectar opcionalmente un display en el conector J4. El display debe contar con protocolo I2C.
+    *	Encoder incremental opcional para conectar en J3.  
 
-## Pines
 ## WLED  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
     <img src="images/wled_logo_akemi.png" alt="Imagen 1" style="max-width: 100%; height: 100px;">
@@ -49,7 +47,6 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 <p><img src="https://kno.wled.ge/assets/images/ui/headers/macbook-pro-space-gray-on-the-wooden-table.jpg" width="50%"><img src="https://kno.wled.ge/assets/images/ui/headers/walking-with-iphone-x.jpg" width="50%"></p>
 
 WLED es el software que utiliza la placa, la página oficial de los desarrolladores y la que ofrece la mayor documentación es la siguiente: [https://kno.wled.ge](https://kno.wled.ge).
-
 
 
 
@@ -89,6 +86,49 @@ WLED es el software que utiliza la placa, la página oficial de los desarrollado
 -	Mandos infrarrojos (requiere receptor y mando RGB de 24 teclas).
 -	Temporizadores simples/programación (hora desde NTP, soporta zonas horarias/DST).
 
+## Primera conexión
+
+Alimentar la placa con un cable para teléfono USB tipo C y un cargador de teléfono. El led rojo se ha de iluminar.
+
+Desde un teléfono celular conectarse a la red WIFI llamada WLED-AP.  Desde allí debe aparecer la página de configuración, en caso de conectarse desde un PC, colocar en el navegador la IP del punto de acceso: 4.3.2.1
+
+Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y password de la red local. Luego de realizado el controlador se reinicia y se conecta a la red local si la señal es suficientemente fuerte, si no puede conectarse entrara de nuevo en modo AP (punto de acceso).
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_20241215-045846.jpg" alt="Imagen 2" style="max-width: 100%; height: 400px;"> 
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/Screenshot_20241215-045853.jpg" alt="Imagen 3" style="max-width: 100%; height: 400px;">
+  </div>
+</div>
+
+
+
+## Galería
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241215_060320_693.jpg" alt="Imagen 2" style="max-width: 100%; height: 400px;"> 
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241210_113155_811.jpg" alt="Imagen 3" style="max-width: 100%; height: 400px;">
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241215_121028_459.jpg" alt="Imagen 2" style="max-width: 100%; height: 400px;">
+  </div>
+  <div style="flex: 1; text-align: center; margin: 0 10px;">
+    <img src="images/IMG_20241210_192843_833.jpg" alt="Imagen 3" style="max-width: 100%; height: 400px;">
+  </div>
+</div>
+
+
 ## Screenshots (capturas de pantalla)
 
 <div style="flex: 1; text-align: center; margin: 0 10px;">
@@ -109,16 +149,4 @@ WLED es el software que utiliza la placa, la página oficial de los desarrollado
   </div>
 </div>
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
