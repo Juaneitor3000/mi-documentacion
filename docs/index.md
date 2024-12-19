@@ -5,20 +5,26 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 ## La placa
  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_5.png" alt="Imagen 1" style="max-width: 40%; height: auto;width: auto;">
-    <p>Vista superior</p>
+    <a href="images/Screenshot_5.png" target="_blank">
+      <img src="images/Screenshot_5.png" alt="Imagen 1" style="max-width: 40%; height: auto;width: auto;">
+      <p>Vista superior</p>
+    </a>
 </div>
 
 
 <div style="display: flex; justify-content: space-between; align-items: center;width: auto;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_7.png" alt="Imagen 2" style="max-width: 70%; height: auto;width: auto;">
-    <p>Vista Trasera</p>
+    <a href="images/Screenshot_7.png" target="_blank">
+      <img src="images/Screenshot_7.png" alt="Imagen 2" style="max-width: 70%; height: auto;width: auto;">
+      <p>Vista Trasera</p>
+    </a>
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_3.jpg" alt="Imagen 3" style="max-width: 70%; height: auto;width: auto;">
-    <p>Versión Full</p>
+    <a href="images/Screenshot_3.jpg" target="_blank">
+      <img src="images/Screenshot_3.jpg" alt="Imagen 3" style="max-width: 80%; height: auto;width: auto;">
+      <p>Versión Full</p>
+    </a>
   </div>
 </div>
 
@@ -40,7 +46,6 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 ## WLED  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
     <img src="images/wled_logo_akemi.png" alt="Imagen 1" style="max-width: none; height: 100px;width: auto;">
-    <p>Menú principal en PC</p>
 </div>
 <p><img src="https://kno.wled.ge/assets/images/ui/headers/macbook-pro-space-gray-on-the-wooden-table.jpg" width="50%"><img src="https://kno.wled.ge/assets/images/ui/headers/walking-with-iphone-x.jpg" width="50%"></p>
 
@@ -75,7 +80,8 @@ WLED es el software que utiliza la placa, la página oficial de los desarrollado
 -	MQTT.
 -	Blynk IoT.
 -	E1.31, Art-Net, DDP y TPM2.net.
--	Hyperion.
+-	Hyperion.  
+- FXLed.
 -	Realtime UDP.
 -	Control por voz con Alexa (incluye ajuste de brillo y color).
 -	Sincronización con luces Philips Hue.
@@ -109,20 +115,28 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241215_060320_693.jpg" alt="Imagen 2" style="max-width: 90%; height: auto;width: auto;"> 
+    <a href="images/IMG_20241215_060320_693.jpg" target="_blank">
+      <img src="images/IMG_20241215_060320_693.jpg" alt="Imagen 2" style="max-width: 90%; height: auto;width: auto;">
+    </a> 
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241210_113155_811.jpg" alt="Imagen 3" style="max-width: 90%; height: auto;width: auto;">
+    <a href="images/IMG_20241210_113155_811.jpg" target="_blank">
+      <img src="images/IMG_20241210_113155_811.jpg" alt="Imagen 3" style="max-width: 90%; height: auto;width: auto;">
+    </a> 
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241215_121028_459.jpg" alt="Imagen 2" style="max-width: 90%; height: auto;width: auto;">
+    <a href="images/IMG_20241215_121028_459.jpg" target="_blank">
+      <img src="images/IMG_20241215_121028_459.jpg" alt="Imagen 2" style="max-width: 95%; height: auto;width: auto;">
+    </a> 
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/IMG_20241210_192843_833.jpg" alt="Imagen 3" style="max-width: 90%; height: auto;width: auto;">
+    <a href="images/IMG_20241210_192843_833.jpg" target="_blank">
+      <img src="images/IMG_20241210_192843_833.jpg" alt="Imagen 3" style="max-width: 95%; height: auto;width: auto;">
+    </a> 
   </div>
 </div>
 
@@ -130,7 +144,9 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 ## Screenshots (capturas de pantalla)
 
 <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_6.jpg" alt="Imagen 1" style="max-width: 90%; height: auto;width: auto;">
+    <a href="images/Screenshot_6.jpg" target="_blank">
+      <img src="images/Screenshot_6.jpg" alt="Imagen 1" style="max-width: 95%; height: auto;width: auto;">
+    </a>
     <p>Menú principal en PC</p>
 </div>
 
