@@ -30,15 +30,13 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 
 -	2 salidas o segmentos independientes para tiras de 5 V para controlar LEDs NeoPixel (WS2812B, WS2811, SK6812). Fan coolers RGB direccionales. Etc.
 
--	2 botones configurables desde la interfaz: 
+-	2 botones configurables desde la interfaz:<br/>
     *	1 botón sobre la placa: SW1 (GPIO9)
-    *	1 botón opcional externo mediante el conector J5 (GPIO9).  
-
--	El software incluido incluye 3 mods instalados y preconfigurados para la placa:
+    *	1 botón opcional externo mediante el conector J5 (GPIO9).<br/><br/>
+-	El software incluido incluye 3 mods instalados y preconfigurados para la placa:<br/><br/>
     *	Autosave que guarda el último estado de la configuración.
     *	Display de 4 líneas para conectar opcionalmente un display en el conector J4. El display debe contar con protocolo I2C.
-    *	Encoder incremental opcional para conectar en J3.  
-
+    *	Encoder incremental opcional para conectar en J3.<br/><br/>
 ## WLED  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
     <img src="images/wled_logo_akemi.png" alt="Imagen 1" style="max-width: 100%; height: 100px;">
@@ -97,10 +95,10 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_20241215-045846.jpg" alt="Imagen 2" style="max-width: 100%; height: 400px;"> 
+    <img src="images/Screenshot_20241215-045846.jpg" alt="Imagen 2" style="max-width: 100%; height: 600px;"> 
   </div>
   <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <img src="images/Screenshot_20241215-045853.jpg" alt="Imagen 3" style="max-width: 100%; height: 400px;">
+    <img src="images/Screenshot_20241215-045853.jpg" alt="Imagen 3" style="max-width: 100%; height: 600px;">
   </div>
 </div>
 
