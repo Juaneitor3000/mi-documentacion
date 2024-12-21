@@ -37,12 +37,12 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 -	2 salidas o segmentos independientes para tiras de 5 V para controlar LEDs NeoPixel (WS2812B, WS2811, SK6812). Fan coolers RGB direccionales. Etc.
 
 -	2 botones configurables desde la interfaz:<br/>
-    *	1 botón sobre la placa: SW1 (GPIO9)
-    *	1 botón opcional externo mediante el conector J5 (GPIO9).<br/><br/>
+    *	1 botón sobre la placa: SW1 (GPIO 9)
+    *	1 botón opcional externo mediante el conector J5 (GPIO 3).<br/><br/>
 -	El software incluido incluye 3 mods instalados y preconfigurados para la placa:<br/><br/>
     *	Autosave que guarda el último estado de la configuración.
     *	Display de 4 líneas para conectar opcionalmente un display en el conector J4. El display debe contar con protocolo I2C.
-    *	Encoder incremental opcional para conectar en J3.<br/><br/>
+    *	Encoder incremental opcional para conectar en J3 para manipular el menú del display.<br/><br/>
 ## WLED  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
     <img src="images/wled_logo_akemi.png" alt="Imagen 1" style="max-width: none; height: 100px;width: auto;">
@@ -162,5 +162,21 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
     <p>Pestaña "Información"</p>
   </div>
 </div>
+
+## Videos
+
+<center>
+Letrero led modificado con tiras led WS2812 y el WLED shield:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0LlJ29TlfnQ?si=bu1M_Pl0w9ASbE-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+WLED + Hyperion:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_pkXYHH0mGE?si=EDheS6KKrJCtD_Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+Gaming PC con WLED Shield:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LklitRmLoow?si=zknoBuj7EyN5wNJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
+La placa incluye las conexiones físicas y el software los MODs para conectar una pantalla y un encoder:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ulZnBt9z3TI?si=LG7SQQf3qdyRdVjZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+</center>
 
 
