@@ -5,9 +5,8 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 ## La placa
  
  <div style="flex: 1; text-align: center; margin: 0 10px;">
-    <a href="images/Screenshot_5.png" target="_blank">
-      <img src="images/Screenshot_5.png" alt="Imagen 1" style="max-width: 40%; height: auto;width: auto;">
-      <p>Vista superior</p>
+    <a href="images/banner wled shield.png" target="_blank">
+      <img src="images/banner wled shield.png" alt="Imagen 1" style="max-width: 100%; height: auto;width: auto;">
     </a>
 </div>
 
@@ -50,6 +49,10 @@ Placa controladora para LEDs direccionables de 5V, características avanzadas co
 <p><img src="https://kno.wled.ge/assets/images/ui/headers/macbook-pro-space-gray-on-the-wooden-table.jpg" width="50%"><img src="https://kno.wled.ge/assets/images/ui/headers/walking-with-iphone-x.jpg" width="50%"></p>
 
 WLED es el software que utiliza la placa, la página oficial de los desarrolladores y la que ofrece la mayor documentación es la siguiente: [https://kno.wled.ge](https://kno.wled.ge).
+
+La aplicación para Android se puede descarcar en la play store:
+
+
 
 
 
@@ -167,16 +170,16 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
 
 <center>
 Letrero led modificado con tiras led WS2812 y el WLED shield:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0LlJ29TlfnQ?si=bu1M_Pl0w9ASbE-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe width=100% height=100% src="https://www.youtube.com/embed/0LlJ29TlfnQ?si=bu1M_Pl0w9ASbE-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 WLED + Hyperion:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_pkXYHH0mGE?si=EDheS6KKrJCtD_Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe width=100% height=100% src="https://www.youtube.com/embed/_pkXYHH0mGE?si=EDheS6KKrJCtD_Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 Gaming PC con WLED Shield:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LklitRmLoow?si=zknoBuj7EyN5wNJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width=100% height=100% src="https://www.youtube.com/embed/LklitRmLoow?si=zknoBuj7EyN5wNJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 La placa incluye las conexiones físicas y el software los MODs para conectar una pantalla y un encoder:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ulZnBt9z3TI?si=LG7SQQf3qdyRdVjZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width=100% height=100% src="https://www.youtube.com/embed/ulZnBt9z3TI?si=LG7SQQf3qdyRdVjZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 </center>
 
 
