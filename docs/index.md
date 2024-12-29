@@ -111,6 +111,21 @@ Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y pa
   </div>
 </div>
 
+Instalar la app WLED para el teléfono Android desde Google Play:
+ <div style="flex: 1; text-align: center; margin: 0 10px;">
+  <a href="https://play.google.com/store/apps/details?id=com.aircoookie.WLED" target="_blank">
+    <img src="images/google play.png" alt="Imagen 2" style="max-width: 50%; height: auto;width: auto;"> 
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 ## Galería
