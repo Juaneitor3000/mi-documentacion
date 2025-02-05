@@ -97,7 +97,7 @@ La aplicación para Android se puede descarcar en la play store:
 
 Alimentar la placa con un cable para teléfono USB tipo C y un cargador de teléfono. El led rojo se ha de iluminar.
 
-Desde un teléfono celular conectarse a la red WIFI llamada WLED-AP.  Desde allí debe aparecer la página de configuración, en caso de conectarse desde un PC, colocar en el navegador la IP del punto de acceso: 4.3.2.1
+Desde un teléfono celular conectarse a la red WIFI llamada WLED-AP. En caso de ser requerida colocar la clave del punto acceso: WLED1234. Desde allí debe aparecer la página de configuración, en caso de conectarse desde un PC, colocar en el navegador la IP del punto de acceso: 4.3.2.1
 
 Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y password de la red local. Luego de realizado el controlador se reinicia y se conecta a la red local si la señal es suficientemente fuerte, si no puede conectarse entrara de nuevo en modo AP (punto de acceso).
 
@@ -117,16 +117,6 @@ Instalar la app WLED para el teléfono Android desde Google Play:
     <img src="images/google play.png" alt="Imagen 2" style="max-width: 50%; height: auto;width: auto;"> 
   </a>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 ## Galería
 
@@ -182,19 +172,40 @@ Instalar la app WLED para el teléfono Android desde Google Play:
 </div>
 
 ## Videos
-
+<div>
 <center>
 Letrero led modificado con tiras led WS2812 y el WLED shield:
-<iframe width=100% height=100% src="https://www.youtube.com/embed/0LlJ29TlfnQ?si=bu1M_Pl0w9ASbE-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
-
+<iframe width=100% height=100% src="https://www.youtube.com/embed/0LlJ29TlfnQ?si=bu1M_Pl0w9ASbE-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 WLED + Hyperion:
-<iframe width=100% height=100% src="https://www.youtube.com/embed/_pkXYHH0mGE?si=EDheS6KKrJCtD_Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
-
+<iframe width=100% height=100% src="https://www.youtube.com/embed/_pkXYHH0mGE?si=EDheS6KKrJCtD_Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Gaming PC con WLED Shield:
-<iframe width=100% height=100% src="https://www.youtube.com/embed/LklitRmLoow?si=zknoBuj7EyN5wNJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-
+<iframe width=100% height=100% src="https://www.youtube.com/embed/LklitRmLoow?si=zknoBuj7EyN5wNJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 La placa incluye las conexiones físicas y el software los MODs para conectar una pantalla y un encoder:
-<iframe width=100% height=100% src="https://www.youtube.com/embed/ulZnBt9z3TI?si=LG7SQQf3qdyRdVjZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width=100% height=100% src="https://www.youtube.com/embed/ulZnBt9z3TI?si=LG7SQQf3qdyRdVjZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+WLED + FXled:
+<iframe src="https://player.vimeo.com/video/1053010399?h=05dcfa3321" width=100% height=100% frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </center>
+</div>
 
+## Firmware
 
+Se adjunta el firmware en caso de que se requiera subir nuevamente o actualizar, usar el archivo .bin con el cual desea actualizar junto a la herramienta [Flash download Tool](https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html){target=_blank}.
+
+- WLED V0.14.4 "HOSHI" español, traducido y compilado, incluye mods: AUTOSAVE, FOUR LINES DISPLAY ALT y ENCODER ALT.
+- WLED V0.15.0. en español, traducido y compilado, incluye mods: AUTOSAVE, FOUR LINES DISPLAY ALT y ENCODER ALT.
+
+Para versiones originales en ingles se puede usar:
+
+- Instalador web (RECOMENDADO): https://install.wled.me
+- [Binarios oficiales](https://github.com/Aircoookie/WLED/releases):  Se pueden subir al microntrolador mediante esptool.py o la herramienta de spressif [Flash download Tool](https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html).
+
+Para mayor información sobre la instalación en inglés: https://kno.wled.ge/basics/getting-started/
+
+## Configuración y presets por defecto
+
+En caso que se requiera o luego de un cambio de firmware, se puede configurar el software WLED a la placa: SHIELD V2 usando los siguientes archivos en el menú seguridad y actualizaciones (Security & Update setup):
+
+- [WLED V0.14.4 configuraciones](https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_cfg_default_hoshi.json)
+- [WLED V0.14.4 Presets](https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_presets_deafult_hoshi.json)
+
+<a href="https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_cfg_default_hoshi.json" download>Descargar Archivo</a>

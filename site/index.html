@@ -79,6 +79,14 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#firmware" class="nav-link">Firmware</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#configuracion-y-presets-por-defecto" class="nav-link">Configuración y presets por defecto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -186,7 +194,7 @@
 </ul>
 <h2 id="primera-conexion">Primera conexión</h2>
 <p>Alimentar la placa con un cable para teléfono USB tipo C y un cargador de teléfono. El led rojo se ha de iluminar.</p>
-<p>Desde un teléfono celular conectarse a la red WIFI llamada WLED-AP.  Desde allí debe aparecer la página de configuración, en caso de conectarse desde un PC, colocar en el navegador la IP del punto de acceso: 4.3.2.1</p>
+<p>Desde un teléfono celular conectarse a la red WIFI llamada WLED-AP. En caso de ser requerida colocar la clave del punto acceso: WLED1234. Desde allí debe aparecer la página de configuración, en caso de conectarse desde un PC, colocar en el navegador la IP del punto de acceso: 4.3.2.1</p>
 <p>Es recomendable pero opcional configurar la red local wifi, añadiendo SSID y password de la red local. Luego de realizado el controlador se reinicia y se conecta a la red local si la señal es suficientemente fuerte, si no puede conectarse entrara de nuevo en modo AP (punto de acceso).</p>
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
@@ -256,19 +264,40 @@
 </div>
 
 <h2 id="videos">Videos</h2>
-<p><center>
-Letrero led modificado con tiras led WS2812 y el WLED shield:</p>
+<div>
+<center>
+Letrero led modificado con tiras led WS2812 y el WLED shield:
 <iframe width=100% height=100% src="https://www.youtube.com/embed/0LlJ29TlfnQ?si=bu1M_Pl0w9ASbE-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<p>WLED + Hyperion:</p>
+WLED + Hyperion:
 <iframe width=100% height=100% src="https://www.youtube.com/embed/_pkXYHH0mGE?si=EDheS6KKrJCtD_Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<p>Gaming PC con WLED Shield:</p>
+Gaming PC con WLED Shield:
 <iframe width=100% height=100% src="https://www.youtube.com/embed/LklitRmLoow?si=zknoBuj7EyN5wNJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<p>La placa incluye las conexiones físicas y el software los MODs para conectar una pantalla y un encoder:</p>
+La placa incluye las conexiones físicas y el software los MODs para conectar una pantalla y un encoder:
 <iframe width=100% height=100% src="https://www.youtube.com/embed/ulZnBt9z3TI?si=LG7SQQf3qdyRdVjZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p></center></p></div>
+WLED + FXled:
+<iframe src="https://player.vimeo.com/video/1053010399?h=05dcfa3321" width=100% height=100% frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</center>
+</div>
+
+<h2 id="firmware">Firmware</h2>
+<p>Se adjunta el firmware en caso de que se requiera subir nuevamente o actualizar, usar el archivo .bin con el cual desea actualizar junto a la herramienta <a href="https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html">Flash download Tool</a>{target=_blank}.</p>
+<ul>
+<li>WLED V0.14.4 "HOSHI" español, traducido y compilado, incluye mods: AUTOSAVE, FOUR LINES DISPLAY ALT y ENCODER ALT.</li>
+<li>WLED V0.15.0. en español, traducido y compilado, incluye mods: AUTOSAVE, FOUR LINES DISPLAY ALT y ENCODER ALT.</li>
+</ul>
+<p>Para versiones originales en ingles se puede usar:</p>
+<ul>
+<li>Instalador web (RECOMENDADO): https://install.wled.me</li>
+<li><a href="https://github.com/Aircoookie/WLED/releases">Binarios oficiales</a>:  Se pueden subir al microntrolador mediante esptool.py o la herramienta de spressif <a href="https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html">Flash download Tool</a>.</li>
+</ul>
+<p>Para mayor información sobre la instalación en inglés: https://kno.wled.ge/basics/getting-started/</p>
+<h2 id="configuracion-y-presets-por-defecto">Configuración y presets por defecto</h2>
+<p>En caso que se requiera o luego de un cambio de firmware, se puede configurar el software WLED a la placa: SHIELD V2 usando los siguientes archivos en el menú seguridad y actualizaciones (Security &amp; Update setup):</p>
+<ul>
+<li><a href="https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_cfg_default_hoshi.json">WLED V0.14.4 configuraciones</a></li>
+<li><a href="https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_presets_deafult_hoshi.json">WLED V0.14.4 Presets</a></li>
+</ul>
+<p><a href="https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_cfg_default_hoshi.json" download>Descargar Archivo</a></p></div>
             </div>
         </div>
 
@@ -350,5 +379,5 @@ Letrero led modificado con tiras led WS2812 y el WLED shield:</p>
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-12-29 15:02:57.873466+00:00
+Build Date UTC : 2025-02-05 22:23:54.404054+00:00
 -->

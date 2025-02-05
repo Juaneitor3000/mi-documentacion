@@ -1,0 +1,5 @@
+USAR "mkdocs gh-deploy" para subir a github pages.
+
+USAR "mkdocs serve" para crear un servidor local
+
+USAR "mkdocs build" para construir el sitio (carpeta site).
