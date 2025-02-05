@@ -79,6 +79,14 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#firmware" class="nav-link">Firmware</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#configuracion-y-presets-por-defecto" class="nav-link">Configuración y presets por defecto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -269,7 +277,26 @@ La placa incluye las conexiones físicas y el software los MODs para conectar un
 WLED + FXled:
 <iframe src="https://player.vimeo.com/video/1053010399?h=05dcfa3321" width=100% height=100% frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </center>
-</div></div>
+</div>
+
+<h2 id="firmware">Firmware</h2>
+<p>Se adjunta el firmware en caso de que se requiera subir nuevamente o actualizar, usar el archivo .bin con el cual desea actualizar junto a la herramienta <a href="https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html">Flash download Tool</a>{target=_blank}.</p>
+<ul>
+<li>WLED V0.14.4 "HOSHI" español, traducido y compilado, incluye mods: AUTOSAVE, FOUR LINES DISPLAY ALT y ENCODER ALT.</li>
+<li>WLED V0.15.0. en español, traducido y compilado, incluye mods: AUTOSAVE, FOUR LINES DISPLAY ALT y ENCODER ALT.</li>
+</ul>
+<p>Para versiones originales en ingles se puede usar:</p>
+<ul>
+<li>Instalador web (RECOMENDADO): https://install.wled.me</li>
+<li><a href="https://github.com/Aircoookie/WLED/releases">Binarios oficiales</a>:  Se pueden subir al microntrolador mediante esptool.py o la herramienta de spressif <a href="https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html">Flash download Tool</a>.</li>
+</ul>
+<p>Para mayor información sobre la instalación en inglés: https://kno.wled.ge/basics/getting-started/</p>
+<h2 id="configuracion-y-presets-por-defecto">Configuración y presets por defecto</h2>
+<p>En caso que se requiera o luego de un cambio de firmware, se puede configurar el software WLED a la placa: SHIELD V2 usando los siguientes archivos en el menú seguridad y actualizaciones (Security &amp; Update setup):</p>
+<ul>
+<li><a href="https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_cfg_default_hoshi.json">WLED V0.14.4 configuraciones</a></li>
+<li><a href="https://github.com/Juaneitor3000/WLED_SPANISH/blob/wled_spanish/configuraciones/wled_presets_deafult_hoshi.json">WLED V0.14.4 Presets</a></li>
+</ul></div>
             </div>
         </div>
 
@@ -351,5 +378,5 @@ WLED + FXled:
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-02-05 19:57:11.573187+00:00
+Build Date UTC : 2025-02-05 22:00:17.439177+00:00
 -->
